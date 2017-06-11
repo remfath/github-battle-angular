@@ -7,10 +7,9 @@ import {AppComponent} from './app.component';
 import {HomeComponent} from './home/home.component';
 import {BattleComponent} from './battle/battle.component';
 import {LoadingComponent} from './loading/loading.component';
-import {PopularComponent} from './popular/popular.component';
-import {ResultComponent} from './result/result.component';
 import {RouterModule} from '@angular/router';
 import { NavComponent } from './nav/nav.component';
+import { PopularComponent } from './popular/popular.component';
 
 @NgModule({
   declarations: [
@@ -18,9 +17,8 @@ import { NavComponent } from './nav/nav.component';
     HomeComponent,
     BattleComponent,
     LoadingComponent,
-    PopularComponent,
-    ResultComponent,
-    NavComponent
+    NavComponent,
+    PopularComponent
   ],
   imports: [
     BrowserModule,
