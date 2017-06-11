@@ -1,0 +1,38 @@
+@import "./lib";
+
+.row-center {
+  @include flex-row-center;
+}
+
+.col-center {
+  @include flex-col-center;
+}
+
+.btn {
+  background: #222;
+  color: #fff;
+  @include flex-row-center;
+  &:hover {
+    background: #000;
+  }
+  &:active {
+    color: orange;
+    font-weight: bold;
+  }
+}
+
+.lg-btn {
+  @extend .btn;
+  width: 200px;
+  height: 50px;
+  font-size: 22px;
+  border-radius: 7px;
+}
+
+.sm-btn {
+  @extend .btn;
+  width: 150px;
+  height: 40px;
+  font-size: 19px;
+  border-radius: 6px;
+}
