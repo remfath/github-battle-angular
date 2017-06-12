@@ -1,0 +1,23 @@
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: #d0021b;
+}
+
+.nav {
+  font-size: 120%;
+  margin: 15px;
+}
+
+.nav-active {
+  font-weight: bold;
+}
+
+.nav li {
+  margin-right: 20px;
+}

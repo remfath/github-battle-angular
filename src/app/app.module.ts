@@ -36,7 +36,7 @@ import { PopularComponent } from './popular/popular.component';
       {
         path: 'popular',
         component: PopularComponent
-      }
+      },
     ])
   ],
   providers: [],

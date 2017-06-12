@@ -1,3 +1,5 @@
-<a routerLink="/">Home</a>
-<a routerLink="battle">Battle</a>
-<a routerLink="popular">Popular</a>
+<ul class="nav">
+  <li><a routerLink="/" routerLinkActive="nav-active" [routerLinkActiveOptions]="{ exact: true }">Home</a></li>
+  <li><a routerLink="/battle" routerLinkActive="nav-active">Battle</a></li>
+  <li><a routerLink="/popular" routerLinkActive="nav-active">Popular</a></li>
+</ul>
